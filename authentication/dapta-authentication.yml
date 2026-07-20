@@ -1,0 +1,27 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.dapta.ai/dapta-mcp/setup/mint-your-api-key
+docs: https://docs.dapta.ai/dapta-mcp/key-concepts
+summary:
+  types: [apiKey]
+  api_key_in: [header]
+  oauth2_flows: []
+schemes:
+  - name: workspaceApiKey
+    type: apiKey
+    in: header
+    parameter_name: x-api-key
+    scope: workspace
+    lifecycle:
+      one_active_key_per_workspace: true
+      owner_only: true
+      shown_once: true
+      recoverable: false
+      rotation: revoke current key then mint a new one on the MCP Access tab
+    notes: >-
+      Dapta authenticates AI clients to a single workspace with a workspace-scoped
+      API key passed in the x-api-key header. The same key authorizes the hosted
+      MCP server at https://mcp.dapta.ai/mcp. No OpenAPI is published, so this
+      profile is sourced from the developer documentation rather than derived.
+    sources:
+      - https://docs.dapta.ai/dapta-mcp/setup/connect-codex
