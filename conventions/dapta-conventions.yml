@@ -1,0 +1,40 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.dapta.ai/dapta-mcp/key-concepts
+summary: >-
+  Cross-cutting semantics for Dapta's programmatic surface (hosted MCP server +
+  outbound webhooks). No public REST OpenAPI is published; conventions are
+  sourced from the developer documentation.
+authentication:
+  style: api-key
+  header: x-api-key
+  scope: workspace
+  ref: authentication/dapta-authentication.yml
+authorization:
+  model: workspace-scoped
+  notes: A key only ever sees and touches its own workspace's data.
+write_safety:
+  model: preview-then-confirm
+  applies_to: MCP write operations
+  notes: >-
+    Read operations execute directly; write operations show a preview and require
+    explicit user confirmation before anything is applied.
+idempotency:
+  supported: false
+  notes: No idempotency-key contract is documented.
+webhooks:
+  direction: outbound
+  transport: https POST, port 443
+  egress_allowlist:
+    - 3.135.117.63
+    - 3.143.158.83
+    - 3.14.139.223
+  ref: asyncapi/dapta-webhooks.yml
+billing:
+  model: credit-based
+  notes: Actions (AI calls, automation flow runs) are standardized to a shared credit unit.
+  ref: https://docs.dapta.ai/fundamentals/how-credits-work-in-dapta
+status_page: https://status.dapta.ai
+docs:
+  - https://docs.dapta.ai/dapta-mcp/key-concepts
+  - https://docs.dapta.ai/integrations/webhook-set-up

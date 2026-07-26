@@ -1,0 +1,52 @@
+generated: '2026-07-18'
+method: searched
+status: published
+source: https://docs.dapta.ai/dapta-mcp/key-concepts
+server:
+  name: dapta-ai
+  transport: http
+  url: https://mcp.dapta.ai/mcp
+  auth:
+    type: apiKey
+    in: header
+    name: x-api-key
+    scope: workspace
+    notes: >-
+      One active API key per workspace, owner-only, shown once and not
+      recoverable. The key scopes the MCP connection to exactly one Dapta
+      workspace; rotate by revoking the current key and minting a new one on the
+      MCP Access tab in the Dapta app.
+  clients:
+    - name: Claude Desktop & Claude Cowork
+      method: downloadable plugin with the key baked in (no connector URL, no OAuth)
+      docs: https://docs.dapta.ai/dapta-mcp/setup/connect-claude-desktop
+    - name: Codex CLI
+      config_file: ~/.codex/config.toml
+      docs: https://docs.dapta.ai/dapta-mcp/setup/connect-codex
+      config: |
+        [mcp_servers.dapta-ai]
+        url = "https://mcp.dapta.ai/mcp"
+        http_headers = { "x-api-key" = "<your-key>" }
+  safety_model: >-
+    Preview-then-confirm. Read operations execute directly; before any write the
+    server shows a preview of exactly what it will do and waits for explicit
+    confirmation — nothing is applied until the user says yes.
+# Capability domains documented for the Dapta MCP (the docs describe the
+# resource surface the server exposes rather than enumerating verbatim tool
+# names). Grounded in docs.dapta.ai/dapta-mcp/key-concepts.
+capabilities:
+  - domain: agents
+    description: Create, list, and improve voice and text agents in the connected workspace.
+  - domain: prompts
+    description: Read and refine agent prompts.
+  - domain: flows
+    description: Design, deploy, list, and modify Flow Studio automations.
+  - domain: analytics
+    description: Pull call stats and review individual calls and conversation results.
+  - domain: campaigns
+    description: Inspect and drive outbound AI call campaigns.
+  - domain: support
+    description: Read and manage Dapta support tickets.
+docs:
+  - https://docs.dapta.ai/dapta-mcp/key-concepts
+  - https://docs.dapta.ai/dapta-mcp/setup/mint-your-api-key

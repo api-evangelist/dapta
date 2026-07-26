@@ -1,0 +1,73 @@
+# Dapta AI
+
+> No-code AI voice and text agent platform for SMBs. Build AI phone agents, SMS and WhatsApp bots, meeting notetakers, and workflow automations in minutes without writing code. Trusted by 50,000+ companies.
+
+## Products
+
+- [AI Voice Agents](https://dapta.ai/ai-voice-agent/): AI phone agents that answer inbound calls, make outbound calls, qualify leads, book appointments, and handle support 24/7 in 20+ languages.
+- [AI Text Agents (SMS)](https://dapta.ai/ai-text-agent-for-ai-sms/): Automate SMS conversations for lead nurturing, appointment reminders, follow-ups, and support with natural AI responses.
+- [WhatsApp AI Agents](https://dapta.ai/whatsapp-ai-agents/): Automated WhatsApp Business conversations that answer, qualify, and push every message to your CRM 24/7.
+- [AI Notetaker](https://dapta.ai/ai-notetaker/): AI meeting recorder and summarizer for Zoom, Google Meet, and Microsoft Teams with transcripts, summaries, and action items.
+- [Workflow Automation](https://dapta.ai/workflow-automation/): Visual no-code automations connecting 1000+ tools, with built-in AI capabilities.
+- [AI Agent Campaigns](https://dapta.ai/ai-agent-campaigns/): Run outbound AI call campaigns at scale from uploaded contact lists and scripts.
+- [Dapti AI Agent](https://dapta.ai/dapti-ai-agent/): Dapta's customizable AI agent for tailored voice and text automation use cases.
+
+## Pricing
+
+Monthly, self-service signup at https://dapta.ai/pricing/
+
+- Pro: $99/month - 100k credits, unlimited agents and flows, 5 users, 5 workspaces, 10GB storage, email and chat support
+- Scale Up: $499/month - 500k credits, unlimited agents/flows/users, 25 workspaces, priority support, assisted onboarding, 4 monthly 1-on-1 tech sessions, 20GB storage
+- Prime: $1,499/month - 1.5M credits, unlimited agents/flows/users, 70 workspaces, advanced support
+- Custom/Enterprise: contact sales for consumption-based pricing and custom SLAs
+
+## Case Studies
+
+- [British Council](https://dapta.ai/case-studies/british-council/): Automated 80% of exam support, cut cost per contact 35%, scaled across five Latin American countries.
+- [MTA University](https://dapta.ai/case-studies/mta-university/): Doubled student connections handling high-volume Meta Ads inquiries with AI admissions outreach.
+- [Magnetic Energy](https://dapta.ai/case-studies/how-magnetic-energy-turned-10-second-leads-into-a-5x-appointment-pipeline/): Turned 10-second lead response into a 5x appointment pipeline.
+- [30X](https://dapta.ai/case-studies/how-30x-automated-10-15-of-sales-with-dapta-voice-agents/): Automated 10-15% of sales with Dapta voice agents.
+- [Aether Mechanical](https://dapta.ai/case-studies/how-aether-mechanical-turned-missed-calls-into-new-revenue/): Turned missed calls into new revenue with 24/7 AI call answering.
+- [Colwell Law Group](https://dapta.ai/case-studies/how-colwell-law-group-turned-missed-calls-into-helped-families/): Converted missed calls into consultations for a family law practice.
+- [IPLER](https://dapta.ai/case-studies/how-ipler-boosted-student-engagement-and-coverage-with-ai-outreach/): Boosted student engagement and coverage with AI outreach.
+- [A Plus Concrete Restoration](https://dapta.ai/case-studies/a-plus-concrete-restoration/): Filtered spam calls so the team focuses on real clients, with AI call summaries by email.
+
+## Industry Solutions
+
+- [AI for Real Estate](https://dapta.ai/ai-in-real-estate/)
+- [AI for Law Firms](https://dapta.ai/ai-software-for-law-firms/)
+- [AI for Home Services](https://dapta.ai/ai-for-home-services/)
+- [AI for Higher Education](https://dapta.ai/higher-education/)
+- [AI for Human Resources](https://dapta.ai/ai-for-human-resources/)
+- [AI Debt Collection Software](https://dapta.ai/ai-debt-collection-software/)
+- [AI Sales Tools & Automation](https://dapta.ai/ai-sales-tools-automation/)
+
+## Integrations
+
+- [All Integrations](https://dapta.ai/integrations/): 1000+ tool integrations
+- [HubSpot Automation](https://dapta.ai/hubspot-automation/)
+- [Salesforce Automation](https://dapta.ai/salesforce-automation/)
+- [GoHighLevel Automation](https://dapta.ai/gohighlevel-automation/)
+
+## Key Pages
+
+- [Homepage](https://dapta.ai/): Overview of all products with live AI voice demo
+- [Pricing](https://dapta.ai/pricing/): Plan comparison with interactive usage calculator
+- [Case Studies](https://dapta.ai/case-studies/): Customer results across voice, text, and WhatsApp
+- [Blog](https://dapta.ai/blog/): AI industry news and product guides
+- [Contact](https://dapta.ai/contact-us-2/): Sales and support contact form
+
+## Key Facts
+
+- Founded in 2024 by Nicolás Rojas
+- Trusted by 50,000+ companies
+- Products: AI voice agents, AI text/SMS agents, WhatsApp AI, AI notetaker, workflow automation, AI agent campaigns
+- Languages: English, Spanish
+- Setup: no-code, first AI agent live in ~2 minutes
+- 1000+ integrations including HubSpot, Salesforce, GoHighLevel
+
+## Contact
+
+- Website: https://dapta.ai
+- Email: support@daptatech.com
+- Contact form: https://dapta.ai/contact-us-2/

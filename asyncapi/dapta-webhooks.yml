@@ -1,0 +1,46 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.dapta.ai/integrations/webhook-set-up
+spec_type: Webhooks
+summary: >-
+  Dapta emits outbound webhooks (HTTPS POST over port 443) from a fixed set of
+  egress IPs that receivers must allowlist. Events span voice-agent calls,
+  Flow Studio HTTP steps, Sales Intelligence meeting processing, and outbound
+  campaigns. No AsyncAPI document is published; this captures the documented
+  webhook/event surface.
+egress_ips:
+  - 3.135.117.63
+  - 3.143.158.83
+  - 3.14.139.223
+transport:
+  protocol: https
+  method: POST
+  port: 443
+events:
+  - name: call.completed
+    product: Voice Agents
+    description: Fired when an AI voice call finishes.
+  - name: call.voicemail_detected
+    product: Voice Agents
+    description: Fired when the agent detects a voicemail.
+  - name: call.transferred
+    product: Voice Agents
+    description: Fired when a call is transferred.
+  - name: conversation.analysis_complete
+    product: Text Agents
+    description: >-
+      Post-conversation analysis extracts structured data from every
+      conversation and sends results to external systems via webhook when a
+      conversation ends.
+  - name: flow.http_request
+    product: Flow Studio
+    description: Workflow steps that trigger outbound HTTP requests.
+  - name: meeting.processed
+    product: Sales Intelligence
+    description: Fired when a meeting recording is processed and analyzed.
+  - name: campaign.contact_result
+    product: Campaigns
+    description: Contact call results sent to external systems.
+docs:
+  - https://docs.dapta.ai/integrations/webhook-set-up
+  - https://docs.dapta.ai/ai-text-agents/setting-up-your-text-agent/post-conversation-analysis

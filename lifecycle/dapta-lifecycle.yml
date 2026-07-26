@@ -1,0 +1,17 @@
+generated: '2026-07-18'
+method: searched
+source: https://status.dapta.ai
+status_page: https://status.dapta.ai
+versioning:
+  scheme: unknown
+  notes: >-
+    No public REST API versioning policy is documented. The hosted MCP endpoint
+    is served at https://mcp.dapta.ai/mcp.
+deprecation:
+  policy_url: null
+  sunset_header: false
+  notes: No published deprecation or Sunset-header policy found.
+sla:
+  url: null
+  notes: SLAs are referenced for Custom/Enterprise plans (contact sales); no public uptime target published.
+deprecated_operations: []
