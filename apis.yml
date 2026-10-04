@@ -47,6 +47,9 @@ image: https://dapta.ai/wp-content/uploads/2025/02/og-tag.jpg
 specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
+x-docs-platform: gitbook
+x-docs-platform-confidence: high
+x-docs-platform-checked: 2026-09-25
 tags:
 - Company
 - AI Agents
@@ -57,7 +60,7 @@ tags:
 - MCP
 - Webhook
 - CRM
-- SMB
+- Small Business
 tags_raw:
 - Company
 - AI Agents
