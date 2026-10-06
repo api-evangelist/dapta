@@ -46,7 +46,7 @@ accessModel:
 image: https://dapta.ai/wp-content/uploads/2025/02/og-tag.jpg
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-10-06'
 x-docs-platform: gitbook
 x-docs-platform-confidence: high
 x-docs-platform-checked: 2026-09-25
@@ -79,6 +79,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://dapta.ai/blog-posts/
+  type: Blog
+- url: https://dapta.ai/feed/
+  type: BlogRSS
 - type: Website
   url: https://dapta.ai
 - type: DeveloperPortal
