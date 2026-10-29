@@ -64,6 +64,103 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Dapta is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Dapta is a no-code AI voice and text agent platform for small and medium businesses, letting teams build AI phone agents, SMS and WhatsApp bots, meeting notetakers, and workflow automations in minutes without writing code. Voice agents answer inbound and place outbound calls in 20+ languages, qualify leads, book appointments, and handle support 24/7; text agents automate SMS and WhatsApp conversations; Flow Studio wires no-code automations across 1000+ tools with CRM connectors for HubSpot, Salesforce, and GoHighLevel. Dapta exposes a hosted, workspace-scoped Model Context Protocol (MCP) server at mcp.dapta.ai so AI clients such as Claude and Codex can drive a workspace, plus an outbound webhook surface for call, meeting, flow, and campaign events. The company is backed by 500 Global and says it serves 50,000+ businesses.
 
-Backed by: 500-global — https://daptatech.com
+**Areas:** Company · AI Agents · Voice AI · Conversational AI · Automation · No-Code · MCP · Webhook · CRM · Small Business
+
+## Dapta on APIs.io
+
+Everything profiled for Dapta is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/dapta/](https://apis.io/providers/dapta/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Dapta Webhooks](https://apis.io/asyncapis/dapta/dapta-webhooks/)
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [dapta-ai](https://apis.io/servers/dapta/dapta-ai/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Dapta Authentication](https://apis.io/security/dapta/dapta-authentication/)
+- [Dapta Domain Security](https://apis.io/security/dapta/dapta-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://dapta.ai)
+- [Documentation](https://docs.dapta.ai)
+- [Getting started](https://docs.dapta.ai/fundamentals/how-to-create-an-account-in-dapta)
+- [Pricing](https://dapta.ai/pricing/)
+- [Sign up](https://auth.dapta.ai/sign-up)
+- [Support](https://dapta.ai/contact-us-2/)
+- [Blog](https://dapta.ai/blog-posts/)
+- [Terms of service](https://www.dapta.ai/dapta-terms-and-conditions)
+- [Privacy policy](https://www.dapta.ai/dapta-privacy-policy)
+- [Status](https://status.dapta.ai)
+
+## API Evangelist rating
+
+**Kin Score 37.9** — thin · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.3 |
+| Contract quality | 39.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 23.7 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 44.7 |
+
+**Agent readiness 28.4** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 19.6** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/dapta/](https://apis.io/providers/dapta/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Dapta: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/dapta/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
